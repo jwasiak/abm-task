@@ -1,0 +1,24 @@
+{
+  "name": "abm-task",
+  "version": "1.0.0",
+  "description": "Zadanie testowe w procesie rekrutacji.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dirs": "mkdir -p public/css && mkdir -p public/js",
+    "bulma": "cp node_modules/bulma/css/bulma.css public/css/ && cp node_modules/bulma/css/bulma.css.map public/css/",
+    "vue": "cp node_modules/vue/dist/vue.js public/js/",
+    "build": "npm run dirs && npm run bulma && npm run vue"
+  },
+  "author": "Jarosław Wasiak",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bulma": "^0.8.2",
+    "css-loader": "^3.5.3",
+    "vue": "^2.6.11",
+    "vue-loader": "^15.9.1",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.43.0"
+  }
+}

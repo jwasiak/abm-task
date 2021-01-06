@@ -13,7 +13,7 @@
   "author": "Jarosław Wasiak",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "bulma": "^0.8.2",
     "css-loader": "^3.5.3",
     "vue": "^2.6.11",
